@@ -10,7 +10,7 @@ int Task(int N, int* s, int count) {
         if (s[i] > s[i - 1]) {
             count1++;
             if (count1 == N) {
-                return i;
+                return i - 1;
             }
         } else {
             count1 = 1;
