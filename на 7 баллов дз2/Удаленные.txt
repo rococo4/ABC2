@@ -1,0 +1,20 @@
+main
+	-mov	rax, QWORD PTR [rax]
+	-mov	rdi, rax
+	+mov	rdi, QWORD PTR [rax]
+
+	-mov	rax, QWORD PTR -24[rbp] #-24 - input
+	-mov	rdi, rax
+	+mov	rdi, QWORD PTR -24[rbp] #-24 - input
+	
+	-cdqe
+
+	-mov	rdx, QWORD PTR -32[rbp] #-32 - output
+	-mov	rsi, rdx
+	+mov	rsi, QWORD PTR -32[rbp] #-32 - output
+
+	-mov	rax, QWORD PTR -32[rbp] #-32 - output
+	-mov	rdi, rax
+	+mov	rdi, QWORD PTR -32[rbp] #-32 - output
+task
+	-cdqe

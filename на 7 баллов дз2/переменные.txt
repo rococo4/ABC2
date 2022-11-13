@@ -1,0 +1,18 @@
+-4 - i
+-1668 - argc
+-24 - input
+-1652 - N
+-1648 - in
+-8 - ch
+-12 - res
+-32 - output
+-33 - c
+Task.c:
+-24 - count
+-4 - i
+-20 - N
+-8 - count1
+-32 - s
+
+
+
