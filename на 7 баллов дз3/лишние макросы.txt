@@ -1,0 +1,13 @@
+	-mov	rax, QWORD PTR -8[rbp] # -8 - fread
+	-mov	rdi, rax
+	+mov	rdi, QWORD PTR -8[rbp]
+	
+	-mov	eax, DWORD PTR -28[rbp] # -28 - x x передается в eax как параметр функции
+	-mov	edi, eax
+	+mov	edi, DWORD PTR -28[rbp] # -28 - x x передается в eax как параметр функции
+
+	-mov	rax, QWORD PTR -24[rbp] # -24 - fwrite
+	-mov	rdi, rax
+	+mov	rdi, QWORD PTR -24[rbp] # -24 - fwrite
+
+	

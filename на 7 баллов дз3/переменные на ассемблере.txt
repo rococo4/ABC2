@@ -1,0 +1,12 @@
+# -36 - argc
+# -48 - argv
+# -28 - x
+# -12 - result
+# -24 - fwrite 
+# -8 - fread
+task.s :
+# -8 - result
+# -36 - x
+# -16 - temp
+# -20 - i
+# -32 - differnce
